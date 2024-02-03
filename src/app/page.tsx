@@ -1,10 +1,12 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-4 bg-gray-100 min-h-screen">
+      <Navbar />
       <h1>Hello World</h1>
-      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+      
+      
     </div>
   );
 }
